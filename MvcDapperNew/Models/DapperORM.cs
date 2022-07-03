@@ -6,6 +6,7 @@ namespace MvcDapperNew.Models
 {
     public static class DapperORM
     {
+        //use Your system Connection String Settings in line no 10
         private static string connectionString = @"Data Source=DESKTOP-M997L96;Initial Catalog = DapperDb; User ID = sa; Password=admin;Connect Timeout = 30; Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         public static void ExecuteWithourReturn(string procedureName,DynamicParameters param = null) 
         { 
